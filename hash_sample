@@ -1,0 +1,10 @@
+http://gateway.marvel.com/v1/public/comics?
+
+
+ts=1
+
+ hash =  md5(1d1e153bc766d190c2babcab466d71a03e48506f74156e4f1143e786d2737d04e471ac574)
+
+
+//md5(ts+privateKey+publicKey)
+
