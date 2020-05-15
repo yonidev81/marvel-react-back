@@ -14,6 +14,9 @@ app.use(comicsRoute);
 const charactersRoute = require("./routes/marvel");
 app.use(charactersRoute);
 
+const comicByCharacter = require("./routes/marvel");
+app.use(comicByCharacter);
+
 mongoose.connect("mongodb://localhost/marvel-test", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
